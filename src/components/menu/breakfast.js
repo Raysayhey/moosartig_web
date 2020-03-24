@@ -34,7 +34,7 @@ const Breakfast = () => {
   // #3
   return (
     <div>
-      <p className="sample">Für  ̈de Glust ̈ servieren wir hansigemachte Kuchen aber auch
+      <p className="sample">Für 'de Glust' servieren wir hansigemachte Kuchen aber auch
     salzige Knabbereien zu deinem Nachmittagstee oder Kaffee.</p>
       <ul className="menu-items-grid">
         {
