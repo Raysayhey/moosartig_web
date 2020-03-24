@@ -29,7 +29,9 @@ const Lunch = () => {
   // #4
   return (
     <div>
-      <p className="sample">TragBar</p>
+      <p className="sample"> 
+      <a href="www.fuellstation-frauenfeld.ch">Füllstation Frauenfeld</a>
+      </p>
       <ul className="menu-items-grid">
         {
           items.map(({ node }) => {

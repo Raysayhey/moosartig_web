@@ -6,19 +6,21 @@ const Footer = () => {
     <footer>
       <section>
         <div className="address">
-          <h3>Adresse</h3>
+          <h3>Kontakt</h3>
+          <span>deHansi</span>
+          <span>Email...</span>
+          <span> Handy Nr.... södd platz ha </span>
           <span>Thundorferstrasse 18</span>
-          <span>Frauenfeld</span>
+          
         </div>
         <div className="hours">
           <h3>Öffnungszeiten</h3>
           <span>Dienstag bis Freitag 8:45 bis 18:00 <br/>
                             Samstag 9:30 bis 16:00
 </span>
-          {/* <span>Weekdays / 10-5</span> */}
         </div>
         <div className="contact">
-          <h3>Kontakt</h3>
+          <h3>Freunde</h3>
           <span>
           <a href="mailto:https://fuellstation-frauenfeld.ch">Füllstation </a> <br/>
 

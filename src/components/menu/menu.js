@@ -24,7 +24,7 @@ const Menu = () => {
         <li className="menu-header" onClick={() => setMenuCategory('hotDrinks')}>zMorge</li>
         <li className="menu-header" onClick={() => setMenuCategory('coldDrinks')}>zMittag</li>
         <li className="menu-header" onClick={() => setMenuCategory('breakfast')}>zVieri</li>
-        <li className="menu-header" onClick={() => setMenuCategory('lunch')} >Zum Mitnehmen</li>
+        <li className="menu-header" onClick={() => setMenuCategory('lunch')} >ichaufe</li>
       </ul>
       <SelectedCategory />
     </section>

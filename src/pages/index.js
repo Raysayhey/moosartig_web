@@ -19,8 +19,8 @@ return (
     </section>
     <section className="container">
       <span className="description">
-      <h3>Für uns stehen Regionale Produkte in der ersten Reihe, jedoch seine Produzenten
-                     und ihre Philosophie im Rampenlicht.   </h3>   </span>
+      <h2>Für uns stehen Regionale Produkte in der ersten Reihe, jedoch seine Produzenten
+                     und ihre Philosophie im Rampenlicht.   </h2>   </span>
       <div className="gallery-grid">
         <Img fluid={data.latte.childImageSharp.fluid} className="gallery-img1"/>
         <Img fluid={data.coffeeBags.childImageSharp.fluid} className="gallery-img2"/>

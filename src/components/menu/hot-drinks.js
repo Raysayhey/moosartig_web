@@ -34,7 +34,7 @@ const HotDrinks = () => {
   // #1
   return (
     <div>
-      <p className="sample">Zmorge Menu</p>
+      <p className="sample">zMorge Menü</p>
       <ul className="menu-items-grid">
         {
           items.map(({ node }) => {

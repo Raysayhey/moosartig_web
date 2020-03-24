@@ -1,5 +1,9 @@
 .menu {
 
+  .sample {
+    font-size: $ms-size;
+  }
+
   .menu-headers {
     display: flex;
     list-style-type: none;
@@ -35,6 +39,7 @@
       grid-template-rows: auto;
     }
     .menu-item {
+      font-size: $xs-size;
       padding-top: 15px;
       padding-right: 20px;   // added for longer text ...
 
