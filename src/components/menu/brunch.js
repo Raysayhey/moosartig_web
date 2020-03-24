@@ -1,13 +1,13 @@
 import React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
 
-const Breakfast = () => {
+const Brunch = () => {
   const data = useStaticQuery(graphql`
   query {
     allContentfulMenuItem(
       filter: {
         category: {
-          title: {eq: "Montag"}
+          title: {eq: "Cold Drinks"}
         }
       }
     ) {
@@ -15,11 +15,6 @@ const Breakfast = () => {
         node {
           title
           id
-          description {
-            internal {
-              content
-            }
-          }
           price
           category{
             title
@@ -31,19 +26,19 @@ const Breakfast = () => {
   `)
 
   const items = data.allContentfulMenuItem.edges;
-  // #3
+  // #Brunch - 4
   return (
     <div>
-      <p className="sample">Für  ̈de Glust ̈ servieren wir hansigemachte Kuchen aber auch
-    salzige Knabbereien zu deinem Nachmittagstee oder Kaffee.</p>
+      <p className="sample">Samstags schläft Hansi aus und serviert dir dafür durchgehend ein
+               Brunch Menü von 9:30 - 16:00. <br/>
+Danach lagert er seine Füsse hoch, zählt die Mäuse und leert sein Bier runter.</p>
       <ul className="menu-items-grid">
         {
           items.map(({ node }) => {
             return (
               <li key={node.id} className="menu-item">
                 <h3>{node.title}</h3>
-                <span>{node.description.internal.content}</span> <br/>
-                <span>{node.price}.-</span>
+                <span>{node.price}</span>
               </li>
             )
           })
@@ -53,4 +48,4 @@ const Breakfast = () => {
   )
 }
 
-export default Breakfast;
+export default Brunch;

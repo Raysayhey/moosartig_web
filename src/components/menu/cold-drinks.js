@@ -29,7 +29,8 @@ const ColdDrinks = () => {
   // #2
   return (
     <div>
-      <p className="sample">zMittags Menu</p>
+      <p className="sample">Von Dienstags bis Freitags ausgewogen, meistens Vegetarisch,
+            manchmal mit Fleisch aber auch mal Vegan.</p>
       <ul className="menu-items-grid">
         {
           items.map(({ node }) => {

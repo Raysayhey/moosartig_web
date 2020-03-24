@@ -26,11 +26,11 @@ const Lunch = () => {
   `)
 
   const items = data.allContentfulMenuItem.edges;
-  // #4
+  // #5 ichaufe
   return (
     <div>
       <p className="sample"> 
-      <a href="www.fuellstation-frauenfeld.ch">Füllstation Frauenfeld</a>
+      <a target="_blank" rel="noopener noreferrer" href="https://fuellstation-frauenfeld.ch">Füllstation Frauenfeld</a>
       </p>
       <ul className="menu-items-grid">
         {

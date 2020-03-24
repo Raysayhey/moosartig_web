@@ -7,10 +7,10 @@ const Footer = () => {
       <section>
         <div className="address">
           <h3>Kontakt</h3>
-          <span>deHansi</span>
+          {/* <span>deHansi</span> */}
           <span>Email...</span>
-          <span> Handy Nr.... södd platz ha </span>
-          <span>Thundorferstrasse 18</span>
+          <span> Handy Nr.. </span>
+          <span>Thundorferstrasse 18, 8500 Frauenfeld</span>
           
         </div>
         <div className="hours">

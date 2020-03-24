@@ -3,6 +3,7 @@ import Breakfast from './breakfast'
 import Lunch from './lunch'
 import HotDrinks from './hot-drinks'
 import ColdDrinks from './cold-drinks'
+import Brunch from './brunch'
 
 const Menu = () => {
   const [menuCategory, setMenuCategory] = useState('hotDrinks');
@@ -15,6 +16,8 @@ const Menu = () => {
     SelectedCategory = Breakfast
   } else if (menuCategory === 'lunch') {
     SelectedCategory = Lunch
+  } else if (menuCategory === 'brunch') {
+    SelectedCategory = Brunch
   }
   
   return (
@@ -24,6 +27,8 @@ const Menu = () => {
         <li className="menu-header" onClick={() => setMenuCategory('hotDrinks')}>zMorge</li>
         <li className="menu-header" onClick={() => setMenuCategory('coldDrinks')}>zMittag</li>
         <li className="menu-header" onClick={() => setMenuCategory('breakfast')}>zVieri</li>
+        <li className="menu-header" onClick={() => setMenuCategory('brunch')}>Samstig Brunch</li>
+
         <li className="menu-header" onClick={() => setMenuCategory('lunch')} >ichaufe</li>
       </ul>
       <SelectedCategory />
