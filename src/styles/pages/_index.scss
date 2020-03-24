@@ -117,9 +117,10 @@ h2 {
 .parallaxe {
   background-image: url('../images/hansi_menu.jpg');
   background-attachment: fixed;
+  justify-content: center;
   background-position: 60% 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 600px;
   margin: 80px 0;
   @media screen and (min-width:1024px) {
