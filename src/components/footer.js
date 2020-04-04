@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="address">
           <h3>Kontakt</h3>
           {/* <span>deHansi</span> */}
-          <span>Email...</span>
-          <span> Handy Nr.. </span>
+          <a href="mailto:trompetehuesli@gmail.com">trompetehuesli@gmail.com</a>
+          <span> 076 404 85 24</span>
           <span>Thundorferstrasse 18, 8500 Frauenfeld</span>
           
         </div>
@@ -22,9 +22,9 @@ const Footer = () => {
         <div className="contact">
           <h3>Freunde</h3>
           <span>
-          <a href="mailto:https://fuellstation-frauenfeld.ch">Füllstation </a> <br/>
+          <a href="https://fuellstation-frauenfeld.ch">Füllstation </a> <br/>
 
-                 <a href="mailto:https://www.gabriel-mueller.ch">Gabriel Müller</a><br/>
+                 <a href="https://www.gabriel-mueller.ch">Gabriel Müller</a><br/>
 
               <a href="mailto:eat-rosa.wyss@bluewin.ch">Beat Wyss</a> 052 721 59 51
 

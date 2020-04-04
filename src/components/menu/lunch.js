@@ -7,7 +7,7 @@ const Lunch = () => {
     allContentfulMenuItem(
       filter: {
         category: {
-          title: {eq: "Lunch"}
+          title: {eq: "ichaufe"}
         }
       }
     ) {
