@@ -7,16 +7,16 @@ const typography = new Typography({
   blockMarginBottom: 0.75,
   googleFonts: [
     {
-      name: "cooper black std",
+      name: "Corben",
       styles: ["400"],
     },
     {
-      name: "cooper black std",
+      name: "Playfair Display",
       styles: ["400", "400i", "700", "700i"],
     },
   ],
-  headerFontFamily: ["cooper black std", "serif"],
-  bodyFontFamily: ["cooper black std", "serif"],
+  headerFontFamily: ["Corben", "serif"],
+  bodyFontFamily: ["Corben", "serif"],
   headerColor: "hsla(0,0%,0%,1)",
   bodyColor: "hsla(0,0%,0%,0.8)",
   headerWeight: 400,
