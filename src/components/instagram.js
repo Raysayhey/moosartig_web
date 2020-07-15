@@ -7,7 +7,7 @@ const Instagram = () => {
   const data = useStaticQuery(graphql`
   query {
     allInstaNode(
-      limit:6,
+      limit:9,
       sort: {
         fields: [timestamp]
         order: [DESC]
@@ -37,8 +37,8 @@ const Instagram = () => {
   const instaPosts = data.allInstaNode.edges;
   return (
     <div className="insta">
-      <h2>INSTAGRAM</h2>
-      <span>@hansiufinsta im moment isch banksy</span>
+      <h2>@hansiufinsta</h2>
+      {/* <span>@hansiufinsta</span> */}
       <ul className="insta-posts">
           {instaPosts.map(({ node }) => {
             return (

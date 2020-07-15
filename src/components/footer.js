@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
+
+
 
 const Footer = () => {
 
@@ -7,6 +10,11 @@ const Footer = () => {
       <section>
         <div className="address">
           <h3>Kontakt</h3>
+         <span></span> 
+       <a href="https://www.facebook.com/eifachde.hansi.5"> <p>  <FaFacebook /> DeHansi</p> </a> 
+
+     <a href="https://www.instagram.com/hansiufinsta/"> <p>  <FaInstagram /> @hansiufinsta</p> </a> 
+
           {/* <span>deHansi</span> */}
           <a href="mailto:trompetehuesli@gmail.com">trompetehuesli@gmail.com</a>
           <span> 076 404 85 24</span>
@@ -31,9 +39,9 @@ const Footer = () => {
               </span>
         </div>
       </section>
-      {/* <p>Modified by
-        <a href="https://block-lab.ch" target="_blank" rel="noopener noreferrer">Ray - </a>
-      </p> */}
+      <p>
+        <a href="https://block-lab.ch" target="_blank" rel="noopener ">Gebaut von Ray</a>
+      </p>
     </footer>
   )
 }

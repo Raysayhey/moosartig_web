@@ -7,7 +7,7 @@ const typography = new Typography({
   blockMarginBottom: 0.75,
   googleFonts: [
     {
-      name: "Corben",
+      name: "Courier",
       styles: ["400"],
     },
     {
@@ -15,8 +15,8 @@ const typography = new Typography({
       styles: ["400", "400i", "700", "700i"],
     },
   ],
-  headerFontFamily: ["Corben", "serif"],
-  bodyFontFamily: ["Corben", "serif"],
+  headerFontFamily: ["Courier", "serif"],
+  bodyFontFamily: ["Courier", "serif"],
   headerColor: "hsla(0,0%,0%,1)",
   bodyColor: "hsla(0,0%,0%,0.8)",
   headerWeight: 400,

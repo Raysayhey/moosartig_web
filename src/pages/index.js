@@ -83,16 +83,19 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    coffeeShop: file(relativePath: { eq: "coffee-shop-exterior.jpg" }) {
+    coffeeShop: file(relativePath: { eq: "hansi_front_web.jpg" }) {
       ...fluidImage
     }
-    coffeePortrait: file(relativePath: { eq: "coffee-portrait.jpg" }) {
+    coffeePortrait: file(relativePath: { eq: "hansi_kafi_web.jpg" }) {
       ...fluidImage
     }
-    latte: file(relativePath: { eq: "latte.jpg" }) {
+    latte: file(relativePath: { eq: "kuchen_web.jpg" }) {
       ...fluidImage
     }
-    coffeeBags: file(relativePath: { eq: "coffee-bags.jpg" }) {
+    coffeeBags: file(relativePath: { eq: "pflanz_hansi_web.jpg" }) {
+      ...fluidImage
+    }
+    Bags: file(relativePath: { eq: "rocket_hansi_web.jpg" }) {
       ...fluidImage
     }
   }
