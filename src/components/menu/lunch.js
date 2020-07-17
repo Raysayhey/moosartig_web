@@ -1,38 +1,38 @@
 import React from 'react'
-import {useStaticQuery, graphql} from 'gatsby'
+// import {useStaticQuery, graphql} from 'gatsby'
 
 const Lunch = () => {
-  const data = useStaticQuery(graphql`
-  query {
-    allContentfulMenuItem(
-      filter: {
-        category: {
-          title: {eq: "ichaufe"}
-        }
-      }
-    ) {
-      edges {
-        node {
-          title
-          id
-          price
-          category{
-            title
-          }
-        }
-      }
-    }
-  }
-  `)
+  // const data = useStaticQuery(graphql`
+  // query {
+  //   allContentfulMenuItem(
+  //     filter: {
+  //       category: {
+  //         title: {eq: "ichaufe"}
+  //       }
+  //     }
+  //   ) {
+  //     edges {
+  //       node {
+  //         title
+  //         id
+  //         price
+  //         category{
+  //           title
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // `)
 
-  const items = data.allContentfulMenuItem.edges;
+  // const items = data.allContentfulMenuItem.edges;
   // #5 ichaufe
   return (
     <div>
       <p className="sample"> 
       <a target="_blank" rel="noopener noreferrer" href="https://fuellstation-frauenfeld.ch">Füllstation Frauenfeld</a>
       </p>
-      <ul className="menu-items-grid">
+      {/* <ul className="menu-items-grid">
         {
           items.map(({ node }) => {
             return (
@@ -43,7 +43,7 @@ const Lunch = () => {
             )
           })
         }
-      </ul>
+      </ul> */}
     </div>
   )
 }

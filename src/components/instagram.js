@@ -7,7 +7,7 @@ const Instagram = () => {
   const data = useStaticQuery(graphql`
   query {
     allInstaNode(
-      limit:9,
+      limit:6,
       sort: {
         fields: [timestamp]
         order: [DESC]

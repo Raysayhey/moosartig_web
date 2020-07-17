@@ -17,7 +17,9 @@ const Footer = () => {
 
           {/* <span>deHansi</span> */}
           <a href="mailto:trompetehuesli@gmail.com">trompetehuesli@gmail.com</a>
-          <span> 076 404 85 24</span>
+          <a href="tel:076 404 85 24">076 404 85 24</a>
+
+          {/* <span> 076 404 85 24</span> */}
           <span>Thundorferstrasse 18, 8500 Frauenfeld</span>
           
         </div>
@@ -34,14 +36,14 @@ const Footer = () => {
 
                  <a href="https://www.gabriel-mueller.ch">Gabriel Müller</a><br/>
 
-              <a href="mailto:eat-rosa.wyss@bluewin.ch">Beat Wyss</a> 052 721 59 51
+              <a href="mailto:beat-rosa.wyss@bluewin.ch">Beat Wyss</a> 052 721 59 51
 
               </span>
         </div>
       </section>
-      <p>
+      {/* <p>
         <a href="https://block-lab.ch" target="_blank" rel="noopener ">Gebaut von Ray</a>
-      </p>
+      </p> */}
     </footer>
   )
 }
