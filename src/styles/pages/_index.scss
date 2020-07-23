@@ -115,21 +115,21 @@ h2 {
   }
 }
 .parallaxe {
-  background-image: url('../images/hansi_menu.jpg');
+  background-image: url('../images/ester_web.jpg');
   background-attachment: fixed;
   justify-content: center;
   background-position: 60% 50%;
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 350px;
+  background-size: cover;
+  height: 300px;
   margin: 80px 0;
   @media screen and (min-width:1024px) {
-    height: 750px;
+    height: 450px;
   }
 }
 
 .parallaxc {
-  background-image: url('../images/tee_sort_web.jpg');
+  background-image: url('../images/lubo.jpg');
   background-attachment: fixed;
   background-position: 60% 50%;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
-  margin: 80px 0;
+  margin: 40px 0 20px 0;
   @media screen and (min-width:1024px) {
     height: 400px;
   }

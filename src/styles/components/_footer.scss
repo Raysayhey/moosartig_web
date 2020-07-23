@@ -13,7 +13,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 60px 0;
+    margin: 20px 0;
     @media screen and (min-width:630px) {
       flex-direction: row;
     }
@@ -22,7 +22,7 @@ footer {
       color: #fff;
     }
     div {
-      padding: 30px 0 0;
+      padding: 10px 0 0;
       display: flex;
       flex-direction: column;
       @media screen and (min-width:630px) {

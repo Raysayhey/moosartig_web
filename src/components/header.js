@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 const Header = ({ siteTitle }) => (
   <header>
     <span>{siteTitle}</span>
-    <span > <a target="_blank" rel="noopener noreferrer" href="https://fuellstation-frauenfeld.ch">Füllstation Frauenfeld</a> </span>
+    <span > <a target="_blank" rel="noopener noreferrer" href="https://fuellstation-frauenfeld.ch">Shop</a> </span>
   </header>
 )
 

@@ -19,22 +19,20 @@ return (
     </section>
     <section className="container">
       <span className="description">
-      <h2>Für uns stehen regionale Produkte sowie die Produzenten
-                     und ihre Philosophie im Rampenlicht.   </h2>   </span>
+      <h2>Wir sind Moosartig <br /> Wir arbeiten mit Pflanzen, Moos und mehr  </h2>   </span>
       <div className="gallery-grid">
         <Img fluid={data.latte.childImageSharp.fluid} className="gallery-img1"/>
         <Img fluid={data.coffeeBags.childImageSharp.fluid} className="gallery-img2"/>
         <Img fluid={data.coffeePortrait.childImageSharp.fluid} className="gallery-img3"/>
       </div>
       <div className="about-grid">
-        <h2>zMorge, zMittag, zVieri</h2>
+        <h2>Grüne Kunst, mal so mal so</h2>
         <p >
-          Hansis Angebot ist frisch, frech, Hansigemacht. <br />
-                          <br/>
-               Wir laden euch ein zum gemütlichen Beisammensein. <br/> <br/>
+          {/* Hansis Angebot ist frisch, frech, Hansigemacht. <br />
+                          <br/> */}
+               Wir sind Pflanzen <br/> <br/>
 
-                <strong> <h3>  <i>"Vom zMorge zum zMittag bis zVieri <br/>
-                              Es het solangs het!"</i> </h3>
+                <strong> <h3>  <i>"Wir sind Moosartig"</i> </h3>
                  
                   </strong>     
                               
@@ -66,16 +64,16 @@ return (
     <section className="container">
 
 
-<div className="about-grid">
-  <h2>sTrompetehüsli</h2>
-  <p >
-  Im 1545 erbauten Trompetehüsli wurden von 1893 bis 1955 die berühmten Wolf 
-  Blasinstrumente hergestellt. <br />
-  Einige Exemplare, welche damals im Trompetehüsli fabriziert wurden, haben den Weg zurück gefunden. <br />
-  Beat Wyss, leidenschaftlicher Musiker und Sammler, 
-  stellt seine Wolf Instrumente im ganzen Haus aus und teilt auf Anfrage gerne seine Geschichten mit euch.
-    </p> 
-</div>
+              <div className="about-grid">
+                <h2>Moosartige Künstler</h2>
+                <p >
+                Pflanzenkünstler und Moosartige Kunstwerke <br/>
+                <br />
+                Zürcher Künstler Kollektiv mit Freude an Pflanzen und allem Anderen das mal gewesen gesie. <br />
+                          Egal ob Holz oder anderes Organisches Material, wir stellen her auf Wunsch oder nach Lust und Laune. <br/>
+                          Alles was brennt und raucht.
+                  </p> 
+              </div>
 
 
 
@@ -85,13 +83,13 @@ return (
 <div className="parallaxd"></div>
 
 
-    {typeof window !== 'undefined' &&
+    {/* {typeof window !== 'undefined' &&
       <LeafletMap
         position={[47.5547819, 8.900032]} // Your Coordinates
         zoom={18} // Zoom Level
         markerText={"DeHansi & Füllstation"} // Icon text
       />
-    }
+    } */}
     <Footer />
   </Layout>
   )
@@ -100,7 +98,7 @@ return (
 export const fluidImage = graphql`
   fragment fluidImage on File {
     childImageSharp {
-      fluid(maxWidth: 1600) {
+      fluid(maxWidth: 1800) {
         ...GatsbyImageSharpFluid
       }
     }
@@ -109,19 +107,19 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    coffeeShop: file(relativePath: { eq: "hansi_front_web.jpg" }) {
+    coffeeShop: file(relativePath: { eq: "thomas-verbrug.jpg" }) {
       ...fluidImage
     }
-    coffeePortrait: file(relativePath: { eq: "hansi_kafi_web.jpg" }) {
+    coffeePortrait: file(relativePath: { eq: "kakt_hang_koko.jpg" }) {
       ...fluidImage
     }
-    latte: file(relativePath: { eq: "kuchen_web.jpg" }) {
+    latte: file(relativePath: { eq: "sukkubus.jpg" }) {
       ...fluidImage
     }
     coffeeBags: file(relativePath: { eq: "gab_janina_web.jpg" }) {
       ...fluidImage
     }
-    Bags: file(relativePath: { eq: "rocket_hansi_web.jpg" }) {
+    Bags: file(relativePath: { eq: "reife_pflanz.jpg" }) {
       ...fluidImage
     }
   }

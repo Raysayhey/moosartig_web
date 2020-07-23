@@ -22,14 +22,14 @@ const Menu = () => {
   
   return (
     <section className="menu">
-      <h2>Unser Angebot</h2>
+      <h2>Unsere Arbeit</h2>
       <ul className="menu-headers">
-        <li className="menu-header" onClick={() => setMenuCategory('hotDrinks')}>zMorge</li>
-        <li className="menu-header" onClick={() => setMenuCategory('coldDrinks')}>zMittag</li>
-        <li className="menu-header" onClick={() => setMenuCategory('breakfast')}>zVieri</li>
-        <li className="menu-header" onClick={() => setMenuCategory('brunch')}>Samstig Brunch</li>
+        <li className="menu-header" onClick={() => setMenuCategory('hotDrinks')}>Pflanzen</li>
+        <li className="menu-header" onClick={() => setMenuCategory('coldDrinks')}>Moos</li>
+        <li className="menu-header" onClick={() => setMenuCategory('breakfast')}>Chrababel</li>
+        <li className="menu-header" onClick={() => setMenuCategory('brunch')}>Brunch</li>
 
-        <li className="menu-header" onClick={() => setMenuCategory('lunch')} >ichaufe</li>
+        {/* <li className="menu-header" onClick={() => setMenuCategory('lunch')} >kick the bucket</li> */}
       </ul>
       <SelectedCategory />
     </section>

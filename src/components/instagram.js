@@ -7,7 +7,7 @@ const Instagram = () => {
   const data = useStaticQuery(graphql`
   query {
     allInstaNode(
-      limit:6,
+      limit:9,
       sort: {
         fields: [timestamp]
         order: [DESC]
@@ -16,8 +16,8 @@ const Instagram = () => {
       edges {
         node {
           id
-          likes
-          comments
+          # likes
+          # comments
           mediaType
           preview
           original
@@ -37,7 +37,7 @@ const Instagram = () => {
   const instaPosts = data.allInstaNode.edges;
   return (
     <div className="insta">
-      <h2>@hansiufinsta</h2>
+      <h2>@moosartig.ch</h2>
       {/* <span>@hansiufinsta</span> */}
       <ul className="insta-posts">
           {instaPosts.map(({ node }) => {
@@ -46,7 +46,7 @@ const Instagram = () => {
                 <Img fixed={node.localFile.childImageSharp.fixed} />
                 <div className="overlay">
                   <img className="icon" src={require('../images/like.png')} alt="like icon"/>
-                  <p className="text">{node.likes}</p>
+                  {/* <p className="text">{node.likes}</p> */}
                 </div>
               </li>
             )
