@@ -7,8 +7,8 @@ if (process.env.NODE_ENV !== 'production') {
 module.exports = {
   siteMetadata: {
     title: `Moosartig.ch`,
-    description: ` Beschreibung `,
-    author: `Cristiano Crolla`,
+    description: ` Moosartig Künstler aus Zürich `,
+    author: `Ray usw.`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,21 +24,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `moosartig`,
+        short_name: `moosartig`,
         start_url: `/`,
-        background_color: `#207111`,
-        theme_color: `#207111`,
+        background_color: `#307115`,
+        theme_color: `#307115`,
         display: `minimal-ui`,
-        icon: `src/images/logo-hansi.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.svg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: process.env.CONTENTFUL_SPACEID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        spaceId: 'f8cn7wr3d017',
+        accessToken: 'yXZplbsLfSLof19M6AE2s56tTnrw4dvsLaqnaDEyt2c',
       },
     },
     {

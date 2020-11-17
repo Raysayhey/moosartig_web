@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Menu from '../components/menu/menu'
 import Instagram from '../components/instagram'
-import LeafletMap from '../components/leafletMap'
+// import LeafletMap from '../components/leafletMap'
 import Footer from '../components/footer'
 
 const IndexPage = ({data}) => {
@@ -19,20 +19,23 @@ return (
     </section>
     <section className="container">
       <span className="description">
-      <h2>Wir sind Moosartig <br /> Wir arbeiten mit Pflanzen, Moos und mehr  </h2>   </span>
+      {/* Wir sind einfach Moosartig <br />  */}
+      <h2>Moosartig, ein Startup aus Zürich. </h2>   </span>
       <div className="gallery-grid">
         <Img fluid={data.latte.childImageSharp.fluid} className="gallery-img1"/>
         <Img fluid={data.coffeeBags.childImageSharp.fluid} className="gallery-img2"/>
         <Img fluid={data.coffeePortrait.childImageSharp.fluid} className="gallery-img3"/>
       </div>
       <div className="about-grid">
-        <h2>Grüne Kunst, mal so mal so</h2>
+        <h2>Ohne Moos nix los</h2>
         <p >
           {/* Hansis Angebot ist frisch, frech, Hansigemacht. <br />
                           <br/> */}
-               Wir sind Pflanzen <br/> <br/>
-
-                <strong> <h3>  <i>"Wir sind Moosartig"</i> </h3>
+               Moosartig verwandelt karge Wände in Kunstwerke durch eine Mischung aus mumifiziertem Moos, Holz, Stein & Metall.  <br/>
+<br/> Ganz nach Ihren Vorstellungen bringt Moosartig die Natur in den Innenraum. <br/> Ohne Pflege präsentiert sich unsere Kunst immer in sattem Grün
+<br/>       
+<br/>
+   <strong> <h3>  <i>"Wir sind einfach Moosartig"</i> </h3>
                  
                   </strong>     
                               
@@ -65,13 +68,12 @@ return (
 
 
               <div className="about-grid">
-                <h2>Moosartige Künstler</h2>
+                <h2>Moosartig ist ein Künstlerduo aus Zürich</h2>
                 <p >
-                Pflanzenkünstler und Moosartige Kunstwerke <br/>
+                Das junge Startup realisiert verschiedene Projekte im Innenbereich mit Pflanzenkunst und Moos Kunstwerken <br/>
                 <br />
-                Zürcher Künstler Kollektiv mit Freude an Pflanzen und allem Anderen das mal gewesen gesie. <br />
-                          Egal ob Holz oder anderes Organisches Material, wir stellen her auf Wunsch oder nach Lust und Laune. <br/>
-                          Alles was brennt und raucht.
+                Von der Kakteenschale über die komplette Moosbedeckung bis zu Mooskunstwerken ist alles realisierbar, <br/>
+                Wir sind gespannt auf Ihre Ideen & Vorstellungen.
                   </p> 
               </div>
 
@@ -107,7 +109,7 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    coffeeShop: file(relativePath: { eq: "thomas-verbrug.jpg" }) {
+    coffeeShop: file(relativePath: { eq: "bao_moosartig2.jpg" }) {
       ...fluidImage
     }
     coffeePortrait: file(relativePath: { eq: "kakt_hang_koko.jpg" }) {
@@ -116,7 +118,7 @@ export const pageQuery = graphql`
     latte: file(relativePath: { eq: "sukkubus.jpg" }) {
       ...fluidImage
     }
-    coffeeBags: file(relativePath: { eq: "gab_janina_web.jpg" }) {
+    coffeeBags: file(relativePath: { eq: "moos_wand.jpg" }) {
       ...fluidImage
     }
     Bags: file(relativePath: { eq: "reife_pflanz.jpg" }) {

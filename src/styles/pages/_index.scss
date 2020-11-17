@@ -1,5 +1,21 @@
+body {
+  background-color: rgba(0, 0, 0, 0.502);
+}
+
 main {
-  background-color: $background;
+  // background-color: #2d6814;
+  background-image: linear-gradient(rgba(68, 133, 42, 0.925), rgba(95, 65, 8, 0.842));
+}
+p {
+  color: #d8d8d8;
+}
+
+i {
+  color: #d8d8d8;
+}
+
+li {
+  color: #d8d8d8;
 }
 
 .hero {
@@ -15,6 +31,7 @@ main {
 h2 {
   @media screen and (min-width: 1024px) {
     font-size: $xl-size;
+    color: #d8d8d8;
   }
 }
 
@@ -106,6 +123,8 @@ h2 {
       @media screen and (min-width: 640px) {
         margin-bottom: 0;
         text-align: center;
+        color: #d8d8d8;
+        
       }
     }
     p {
@@ -142,20 +161,20 @@ h2 {
 }
 
 .parallaxd {
-  background-image: url('../images/tromp-huus_web.jpg');
+  background-image: url('../images/moosa.jpg');
   background-attachment: fixed;
   background-position: 60% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
-  margin: 40px 0 20px 0;
+  margin: 40px 0 0 0;
   @media screen and (min-width:1024px) {
-    height: 400px;
+    height: 500px;
   }
 }
 
 .parallaxx {
-  background-image: url('../images/int_tromp.jpg');
+  background-image: url('../images/mitchi.jpg');
   background-attachment: fixed;
   background-position: 60% 50%;
   background-repeat: no-repeat;

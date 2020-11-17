@@ -33,14 +33,20 @@ const HotDrinks = () => {
 
   // const items = data.allContentfulMenuItem.edges;
   // #1
+  //       Pflanzen Kunst
   return (
     <div>
-      <p className="sample">Hansi packt für deinen zMorgen alles zwischen
-     zwei Brotscheiben <br />
+      <p className="sample">Moosartig mumifiziert Pflanzen nach Wunsch. <br />
      {/* Wir haben auch eine reiche Auswahl an Müesli. <br/> */}
-     Dazu Kaffee von <a target="_blank" rel="noopener noreferrer" href="https://roestgrad.ch">roestgrad.ch</a> und Tee von 
-     <a target="_blank" rel="noopener noreferrer" href="https://art-du-the.ch"> art-du-the.ch</a> <br/>
-                Sein oder Wachsein ist die Frage.</p>
+     {/* Dazu Kaffee von <a target="_blank" rel="noopener noreferrer" href="https://roestgrad.ch">roestgrad.ch</a> und Tee von 
+     <a target="_blank" rel="noopener noreferrer" href="https://art-du-the.ch"> art-du-the.ch</a> */}
+     Wir haben unsere eigenen Methoden zur Mumifizierung von Pflanzen.<br/>
+     
+<br></br>      <strong> <h3>  <i>"Moosart mit Pflanzen"</i> </h3>
+                 
+                 </strong>   
+                
+                </p>
       {/* <ul className="menu-items-grid">
         {
           items.map(({ node }) => {

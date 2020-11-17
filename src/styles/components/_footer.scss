@@ -6,14 +6,16 @@ footer {
   justify-content: center;
   margin: 0;
   padding: 0;
-  background-color: $foot;
+  background-color: #2d681400 !important; 
+  ;
   color: #fff;
   section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 20px 0 ;
+    padding-bottom: 40px;
     @media screen and (min-width:630px) {
       flex-direction: row;
     }
@@ -37,9 +39,15 @@ footer {
     color: #fff;
     text-decoration: none;
     padding-left: 4px;
+   
     transition: 0.3s;
   }
   a:hover {
     color: rgb(202, 129, 32);
   }
+}
+
+svg {
+  height: 2rem;
+  width: 2rem;
 }

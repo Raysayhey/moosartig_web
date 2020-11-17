@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaInstagram,  FaPhone} from 'react-icons/fa';
 
 
 
@@ -9,13 +9,19 @@ const Footer = () => {
     <footer>
       <section>
         <div className="address">
-          <h3>Kontakt</h3>
+          {/* <h3>Kontakt</h3> */}
        
 
         <p> 
        <a href="https://www.facebook.com/Moosartigch-109852187484498">   <FaFacebook /> </a> 
 
-     <a href="https://www.instagram.com/moosartig.ch/">  <FaInstagram /> </a> </p> 
+     <a href="https://www.instagram.com/moosartig.ch/">  <FaInstagram /> </a> 
+     <a href="tel:0786166007">  <FaPhone /> </a>
+
+     </p> 
+
+    
+     
 
         
 
@@ -27,12 +33,12 @@ const Footer = () => {
           {/* <span>Thundorferstrasse 18, 8500 Frauenfeld</span> */}
           
         </div>
-        <div className="hours">
+        {/* <div className="hours">
           <h3>Öffnungszeiten</h3>
           <span>Montag bis Freitag 8:45 bis 18:00 <br/>
                           
 </span>
-        </div>
+        </div> */}
         {/* <div className="contact">
           <h3>Freunde</h3>
           <span>

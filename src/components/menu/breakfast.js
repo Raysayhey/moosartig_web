@@ -31,11 +31,14 @@ const Breakfast = () => {
   // `)
 
   // const items = data.allContentfulMenuItem.edges;
-  // #3
+  // #3     
+  //          Holz
   return (
     <div>
-      <p className="sample">Für 'de Glust' servieren wir hansigemachte Kuchen aber auch
-    salzige Knabbereien zu deinem Nachmittagstee oder Kaffee.</p>
+      <p className="sample">In Zusammenarbeit mit unserer Partnerfirma aus Zürich, 
+      Möbelraum in Adliswil, sind komplette Raumgestaltungen umsetzbar. <br/>
+      <a target="_blank" rel="noopener noreferrer" href="https://moebelraum.jimdofree.com">Möbelraum.ch</a> 
+     </p>
       {/* <ul className="menu-items-grid">
         {
           items.map(({ node }) => {

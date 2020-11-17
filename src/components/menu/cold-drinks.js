@@ -27,10 +27,13 @@ const ColdDrinks = () => {
 
   // const items = data.allContentfulMenuItem.edges;
   // #2
+  //   Moos Art
   return (
     <div>
-      <p className="sample">Von Dienstags bis Freitags ausgewogen, meistens Vegetarisch,
-            manchmal mit Fleisch aber auch mal Vegan.</p>
+      <p className="sample">Mumifiziertes Moos behält ohne Wasser seine Form. <br/>
+        Das Moos ist in unterschiedlicher Form und Farbe vorhanden. Je nach Wunsch können wir Ihnen ein
+          individuelles Projekt zusammenstellen.
+      </p>
       {/* <ul className="menu-items-grid">
         {
           items.map(({ node }) => {
