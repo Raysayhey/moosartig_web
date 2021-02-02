@@ -27,8 +27,8 @@ const Menu = () => {
     <section className="menu">
       <h2>Unsere Arbeit</h2>
       <ul className="menu-headers">
-        <li className="menu-header" onClick={() => setMenuCategory('hotDrinks')}>Pflanzen-Kunst</li>
-        <li className="menu-header" onClick={() => setMenuCategory('coldDrinks')}>Moos-Art</li>
+        <li className="menu-header" onClick={() => setMenuCategory('coldDrinks')}>Moos</li>
+        <li className="menu-header" onClick={() => setMenuCategory('hotDrinks')}>Pflanzen</li>
         <li className="menu-header" onClick={() => setMenuCategory('breakfast')}>Raumgestaltung</li>
         {/* <li className="menu-header" onClick={() => setMenuCategory('brunch')}>Brunch</li>
 

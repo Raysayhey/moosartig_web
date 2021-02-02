@@ -33,6 +33,7 @@ const ColdDrinks = () => {
       <p className="sample">Mumifiziertes Moos behält ohne Wasser seine Form. <br/>
         Das Moos ist in unterschiedlicher Form und Farbe vorhanden. Je nach Wunsch können wir Ihnen ein
           individuelles Projekt zusammenstellen.
+          
       </p>
       {/* <ul className="menu-items-grid">
         {

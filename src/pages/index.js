@@ -29,15 +29,17 @@ return (
       <div className="about-grid">
         <h2>Ohne Moos nix los</h2>
         <p >
+        Moosartig bringt die Natur in den Innenraum. <br></br>
           {/* Hansis Angebot ist frisch, frech, Hansigemacht. <br />
                           <br/> */}
-               Moosartig verwandelt karge Wände in Kunstwerke durch eine Mischung aus mumifiziertem Moos, Holz, Stein & Metall.  <br/>
-<br/> Ganz nach Ihren Vorstellungen bringt Moosartig die Natur in den Innenraum. <br/> Ohne Pflege präsentiert sich unsere Kunst immer in sattem Grün
-<br/>       
-<br/>
-   <strong> <h3>  <i>"Wir sind einfach Moosartig"</i> </h3>
-                 
-                  </strong>     
+                          <br></br>
+               Wir verwandeln karge Wände in Kunstwerke durch eine Mischung
+                aus mumifiziertem Moos, Holz, Stein & Metall.  <br/>
+ <br/> Unsere Kreationen brauchen keine Pflege.
+ <br></br>
+{/* <br/> Ganz nach Ihren Vorstellungen erarbeiten wir ein Konzept mit Ihnen. 
+<br/> */}
+   {/* <strong> <h3>  <i>"Wir sind einfach Moosartig"</i> </h3></strong>      */}
                               
                               <br/>
                               {/* Hansi sind Janina und Gabriel, eine junge Familie die
@@ -53,15 +55,15 @@ return (
       
       </section>
       
-      <div className="parallaxc"></div>
+      {/* <div className="parallaxc"></div> */}
 
      
       
 
-      <section className="container">
+      {/* <section className="container">
 
       <Instagram />
-    </section>
+    </section> */}
     <div className="parallaxx"></div>
 
     <section className="container">
